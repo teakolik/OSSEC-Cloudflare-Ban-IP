@@ -1,6 +1,10 @@
 #!/bin/sh
-# Cloudflare IP block list
-# OSSEC ile Cloudflare Üzerinden Zararlı İstekleri Banlamak
+# 
+# Açıklama: OSSEC ile Cloudflare Üzerinden Zararlı İstekleri Banlamak
+#
+# Script konumu: /var/ossec/active-response/cloudflare_ban.sh
+# Sonrasında chmod +x cloudflare_ban.sh komutu vermeyi unutmayın!
+# 
 # Ossec SH Dosya Yolu /var/ossec/active-response/bin/cloudflare-ban.sh
 # 
 # OSSEC Conf /var/ossec/etc/ossec.conf Editleyin ve Aşağıdaki Kodları Giriniz.
